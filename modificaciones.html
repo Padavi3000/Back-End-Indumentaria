@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Producto 🚀</title>
+    <link rel="stylesheet" href="./static/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-index ">
+            <img class="logo-nav" src="./static/imagenes/Logo.jpg" alt="logo indumentaria">
+        </nav>
+    </header>
+    <div class="logo-centrado">
+        <!-- <img src="./static/imagenes/banner.jpg" alt="logo"> -->
+    </div>
+    <h1>Modificar Prenda</h1><br>
+    <a href="index.html">Menu principal</a>
+    <div id="app">
+        <form id="form-obtener-producto">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" required><br>
+            <button type="submit">Modificar Producto</button> <a href="index.html">Menu principal</a>
+        </form>
+        <div id="datos-producto" style="display: none;">
+            <h2>Datos del Producto</h2>
+            <form id="form-guardar-cambios">
+                <label for="descripcionModificar">Descripción:</label>
+                <input type="text" id="descripcionModificar" required><br>
+                <label for="cantidadModificar">Cantidad:</label>
+                <input type="number" id="cantidadModificar" required><br>
+                <label for="precioModificar">Precio:</label>
+                <input type="number" step="0.01" id="precioModificar" required><br>
+                <button type="submit">Guardar Cambios</button>
+                <a href="modificaciones.html">Cancelar</a>
+            </form>
+        </div>
+    </div>
+<script src="static/js/modificaciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Prendas 🚀</title>
+    <link rel="stylesheet" href="./static/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-index ">
+            <img class="logo-nav" src="./static/imagenes/Logo.jpg" alt="logo indumentaria">
+        </nav>
+    </header>
+    <div class="logo-centrado">
+        <!-- <img src="./static/imagenes/banner.jpg" alt="logo"> -->
+    </div>
+    <h1>Alta de Prenda</h1><br>
+    <div id="app">
+        <form id="form-alta-producto">
+            <label for="descripcion">Descripción:</label>
+            <input type="text" id="descripcion" required><br>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" required><br>
+            <label for="precio">Precio:</label>
+            <input type="number" step="0.01" id="precio" required><br>
+            <button type="submit">Agregar Prenda</button> <a href="index.html">Menu principal</a>
+        </form>
+    </div>
+<script src="static/js/altas.js"></script>
+</body>
+</html>
